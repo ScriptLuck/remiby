@@ -10,6 +10,6 @@ Early work in progress. Built with Kotlin and Jetpack Compose.
 
 ## License
 
-Copyright (C) 2026 scriptluck
+Copyright (c) 2026 ScriptLuck
 
-Licensed under the [GNU General Public License v3.0](LICENSE).
+Licensed under the [Apache License 2.0](LICENSE). See [NOTICE](NOTICE) for attribution.

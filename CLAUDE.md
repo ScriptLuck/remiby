@@ -18,4 +18,4 @@ Android app (Android-only for now) that helps users learn and remember English.
 
 - Package / applicationId: `io.github.scriptluck.remiby`
 - minSdk 26, targetSdk / compileSdk 37
-- License: GPL-3.0 (`LICENSE`), copyright "scriptluck"
+- License: Apache-2.0 (`LICENSE` + `NOTICE`), copyright "ScriptLuck"
