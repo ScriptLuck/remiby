@@ -1,0 +1,18 @@
+# Claude Code (local only, not versioned)
+CLAUDE.md
+.claude/
+
+# OS / editors
+.DS_Store
+.vscode/
+
+# Android project (code/)
+code/.gradle/
+code/.kotlin/
+code/.idea/
+code/local.properties
+code/captures/
+code/**/build/
+code/**/.externalNativeBuild/
+code/**/.cxx/
+*.iml
