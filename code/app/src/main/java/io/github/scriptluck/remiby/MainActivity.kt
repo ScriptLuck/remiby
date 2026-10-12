@@ -7,10 +7,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import io.github.scriptluck.remiby.data.sampleWords
+import io.github.scriptluck.remiby.ui.WordCard
 import io.github.scriptluck.remiby.ui.theme.RemibyTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,28 +20,14 @@ class MainActivity : ComponentActivity() {
         setContent {
             RemibyTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                    WordCard(
+                        word = sampleWords[6],
+                        modifier = Modifier
+                            .padding(innerPadding)
+                            .padding(16.dp),
                     )
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    RemibyTheme {
-        Greeting("Android")
     }
 }
